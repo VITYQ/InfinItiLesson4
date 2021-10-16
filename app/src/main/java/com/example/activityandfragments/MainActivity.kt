@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.page2 -> {
                     fragmentManager
-                        .replace(R.id.container_main, Fragment2())
+                        .replace(R.id.container_main, Fragment1())
                         .commit()
                     true
                 }
